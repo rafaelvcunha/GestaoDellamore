@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<h:html lang="pt-br"
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:jsf="http://xmlns.jcp.org/jsf"
+	xmlns:pe="http://primefaces.org/ui/extensions">
+
+<h:head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Buffet Del'Lamore</title>
+
+    <!-- Bootstrap Core CSS -->
+    <!-- <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" /> -->
+	<!--<link jsf:library="vendor" jsf:name="bootstrap/css/bootstrap.min.css" />-->
+	<h:outputStylesheet library="vendor" name="bootstrap/css/bootstrap.min.css" ></h:outputStylesheet>
+	
+    <!-- MetisMenu CSS -->
+    <h:outputStylesheet library="vendor" name="metisMenu/metisMenu.min.css" ></h:outputStylesheet>
+
+    <!-- Custom CSS -->
+    <h:outputStylesheet library="dist" name="css/sb-admin-2.css" ></h:outputStylesheet>
+
+
+    <!-- Custom Fonts -->
+    <h:outputStylesheet library="vendor" name="font-awesome/css/font-awesome.min.css" ></h:outputStylesheet>
+
+    <h:outputStylesheet library="dist" name="css/edit.css"></h:outputStylesheet>
+
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Lobster');
+    </style>
+    
+    <!-- jQuery -->
+    <script jsf:library="vendor" jsf:name="jquery/jquery.min.js"></script>
+
+
+    <!-- Bootstrap Core JavaScript -->
+    <script jsf:library="vendor" jsf:name="bootstrap/js/bootstrap.min.js"></script>
+
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script jsf:library="vendor" jsf:name="metisMenu/metisMenu.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script jsf:library="dist" jsf:name="js/sb-admin-2.js"></script>
+        
+</h:head>
+
+<h:body>
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="nome-empresa navbar-brand" href="index.xhtml">Buffet Del'Lamore</a>
+            </div>
+            <!-- /.navbar-header -->
+
+            <ul class="nav navbar-top-links navbar-right">
+                <li>
+                    <a href="login.xhtml"><i class="fa fa-sign-out fa-fw"></i> Sair</a>
+                </li>
+            </ul>
+            <!-- /.navbar-top-links -->
+
+            <div class="navbar-default sidebar" role="navigation">
+                <div class="sidebar-nav navbar-collapse">
+                    <ul class="nav" id="side-menu">
+                        <li>
+                            <a href="#"><i class="fa fa-users fa-fw"></i> Cadastro de Clientes<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="#">Incluir</a>
+                                </li>
+                                <li>
+                                    <a href="#">Consultar</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-cutlery fa-fw"></i> Cadastro Produtos<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="#">Incluir</a>
+                                </li>
+                                <li>
+                                    <a href="#">Consultar</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-edit fa-fw"></i> Orçamento<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="#">Incluir</a>
+                                </li>
+                                <li>
+                                    <a href="#">Consultar</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-calendar fa-fw"></i> Agenda</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Gráficos<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="#">Anual</a>
+                                </li>
+                                <li>
+                                    <a href="#">Mensal</a>
+                                </li>
+                                <li>
+                                    <a href="#">Produtos</a>
+                                </li>
+                                <li>
+                                    <a href="#">Localização</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                     </ul>
+                </div>
+                <!-- /.sidebar-collapse -->
+            </div>
+            <!-- /.navbar-static-side -->
+        </nav>
+
+        <!-- Page Content -->
+        <div id="page-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="page-header">Em construção...</h1>
+                        <ui:insert name="container">
+                        </ui:insert>
+                    </div>
+                    <!-- /.col-lg-12 -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container-fluid -->
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+
+
+</h:body>
+
+</h:html>

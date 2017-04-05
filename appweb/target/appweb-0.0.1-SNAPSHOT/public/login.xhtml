@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<h:html lang="pt-br"
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:jsf="http://xmlns.jcp.org/jsf"
+	xmlns:pe="http://primefaces.org/ui/extensions">
+
+<h:head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Buffet Del'Lamore</title>
+
+    <!-- Bootstrap Core CSS -->
+    <!-- <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" /> -->
+	<!--<link jsf:library="vendor" jsf:name="bootstrap/css/bootstrap.min.css" />-->
+	<h:outputStylesheet library="vendor" name="bootstrap/css/bootstrap.min.css" ></h:outputStylesheet>
+	
+    <!-- MetisMenu CSS -->
+    <h:outputStylesheet library="vendor" name="metisMenu/metisMenu.min.css" ></h:outputStylesheet>
+
+    <!-- Custom CSS -->
+    <h:outputStylesheet library="dist" name="css/sb-admin-2.css" ></h:outputStylesheet>
+
+
+    <!-- Custom Fonts -->
+    <h:outputStylesheet library="vendor" name="font-awesome/css/font-awesome.min.css" ></h:outputStylesheet>
+
+    <h:outputStylesheet library="dist" name="css/edit.css"></h:outputStylesheet>
+
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Lobster');
+    </style>
+    
+    <!-- jQuery -->
+    <script jsf:library="vendor" jsf:name="jquery/jquery.min.js"></script>
+
+
+    <!-- Bootstrap Core JavaScript -->
+    <script jsf:library="vendor" jsf:name="bootstrap/js/bootstrap.min.js"></script>
+
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script jsf:library="vendor" jsf:name="metisMenu/metisMenu.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script jsf:library="dist" jsf:name="js/sb-admin-2.js"></script>
+
+
+</h:head>
+
+<h:body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+                <div class="login-panel panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="nome-empresa panel-title">Buffet Del'Lamore</h3>
+                    </div>
+                    <div class="panel-body">
+                        <form role="form">
+                            <fieldset>
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="E-mail" name="email" type="email" />
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="Senha" name="password" type="password" value="" />
+                                </div>
+                                <!-- Change this to a button or input when using this as a form -->
+                                <a href="index.xhtml" class="btn btn-lg btn-info btn-block">Acessar</a>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</h:body>
+
+</h:html>
